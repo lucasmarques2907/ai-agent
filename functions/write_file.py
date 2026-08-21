@@ -1,5 +1,29 @@
 import os
 
+schema_write_file = {
+    "type": "function",
+    "function": {
+        "name": "write_file",
+        "description": "Write the content received to a file, changing the old content for the new. If the file does not exist, it is created.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "file_path": {
+                    "type": "string",
+                    "description": "Name of the file"
+                },
+                "content": {
+                    "type": "string",
+                    "description": "Content of the file to be written"
+                }
+            },
+            "required": [
+                "file_path",
+                "content"
+            ]
+        }
+    }
+}
 
 def write_file(working_directory: str, file_path: str, content: str) -> str:
     try:
