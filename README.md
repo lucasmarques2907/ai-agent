@@ -1,5 +1,7 @@
-# ai-agent
-
 ## Sobre
-Este é um projeto do curso de backend da plataforma [Boot.dev](https://boot.dev).
-O objetivo deste projeto é entender como os agentes de IA funcionam e como criar um próprio.
+
+Agente de IA básico feito para aprender como funcionam agentes de IA na prática. Os modelos utilizados são os gratuitos da OpenRouter.
+
+## TechStack
+
+- Python @ 3.13
